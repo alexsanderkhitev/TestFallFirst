@@ -44,8 +44,7 @@ class TableViewController: UITableViewController {
             let digit = randomInt(0, max: 100)
             digitArray.append(digit)
         }
-        
-        print("digit array count", digitArray.count, digitArray)
+        tableView.reloadData()
     }
     
     private func randomInt(min: Int, max: Int) -> Int {
