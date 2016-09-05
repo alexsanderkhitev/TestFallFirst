@@ -17,6 +17,7 @@
 		A6529E741D7D6A4F009D77A3 /* NumberConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6529E731D7D6A4F009D77A3 /* NumberConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6529E781D7D6A4F009D77A3 /* NumberConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6529E711D7D6A4F009D77A3 /* NumberConverter.framework */; };
 		A6529E791D7D6A4F009D77A3 /* NumberConverter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6529E711D7D6A4F009D77A3 /* NumberConverter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6529E7E1D7D6D30009D77A3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6529E7D1D7D6D30009D77A3 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		A6529E711D7D6A4F009D77A3 /* NumberConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NumberConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6529E731D7D6A4F009D77A3 /* NumberConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberConverter.h; sourceTree = "<group>"; };
 		A6529E751D7D6A4F009D77A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6529E7D1D7D6D30009D77A3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				A6529E411D7D57CA009D77A3 /* AppDelegate.swift */,
 				A6529E431D7D57CA009D77A3 /* TableViewController.swift */,
+				A6529E7D1D7D6D30009D77A3 /* TableViewCell.swift */,
 				A6529E451D7D57CA009D77A3 /* Main.storyboard */,
 				A6529E4B1D7D57CA009D77A3 /* Assets.xcassets */,
 				A6529E4D1D7D57CA009D77A3 /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6529E7E1D7D6D30009D77A3 /* TableViewCell.swift in Sources */,
 				A6529E441D7D57CA009D77A3 /* TableViewController.swift in Sources */,
 				A6529E6B1D7D58A0009D77A3 /* NumberConverter.swift in Sources */,
 				A6529E421D7D57CA009D77A3 /* AppDelegate.swift in Sources */,
